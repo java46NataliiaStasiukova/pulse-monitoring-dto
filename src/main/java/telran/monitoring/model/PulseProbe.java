@@ -16,5 +16,10 @@ public class PulseProbe {
 	public long timestamp;
 	public long sequenceNumber;
 	public int value;
+	@Override
+	public String toString() {
+		return "PulseProbe [patientId=" + patientId + ", timestamp=" + timestamp + ", sequenceNumber=" + sequenceNumber
+				+ ", value=" + value + "]";
+	}
 	
 }
